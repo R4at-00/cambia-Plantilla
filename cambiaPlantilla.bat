@@ -19,6 +19,10 @@ echo 	0) Salir
 echo. 
 set /p choice=Eleccion numero:
 
+if not exist "%APPDATA%\NetBeans\23\config\Templates\Classes" (
+	md %APPDATA%\NetBeans\23\config\Templates\Classes
+)
+
 if "%choice%"=="0" (
 	echo chao
 	pause
