@@ -29,4 +29,4 @@ public class ${name}<#if extension?? && extension != ""> extends ${extension}</#
     public static void main(String[] args) {
         
     }
-}
+}//
